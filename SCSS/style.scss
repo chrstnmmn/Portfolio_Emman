@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+	box-sizing: content-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--Accent: #f8a685;
+	--Background: #f7e4be;
+	--Primary: #fde6d2;
+	--Secondary: #ffd293;
+	--Text: #342f2f;
+
+	--Katibe: "Katibeh";
+	--Karma: "Karma";
+}
+
