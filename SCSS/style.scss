@@ -28,7 +28,17 @@ body {
 
   margin-inline: 12rem;
 
+  .title,
+  .welcome {
+    pointer-events: none;
+    user-select: none;
+  }
+
   .title {
     padding-right: 195px;
+  }
+
+  .welcome {
+    align-self: center;
   }
 }

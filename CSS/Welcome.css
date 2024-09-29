@@ -25,15 +25,22 @@ body {
   background-color: var(--Main);
   margin-inline: 12rem;
 }
+body .title,
+body .welcome {
+  pointer-events: none;
+  user-select: none;
+}
 body .title {
   padding-right: 195px;
+}
+body .welcome {
+  align-self: center;
 }
 
 .welcome {
   margin-bottom: 800px;
   display: flex;
   flex-direction: row;
-  gap: 50px;
   align-items: center;
 }
 .welcome .profile {
@@ -45,11 +52,12 @@ body .title {
   grid-area: 1/1;
   pointer-events: none;
   user-select: none;
+  width: 80%;
 }
 .welcome .profile img {
   border-radius: 384.5px;
   background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  translate: 30px 55px;
+  translate: 30px 120px;
 }
 .welcome .label {
   margin-top: 200px;
