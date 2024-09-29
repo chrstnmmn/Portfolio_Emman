@@ -17,18 +17,44 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
   background-color: var(--Main);
   margin-inline: 12rem;
 }
+body .title {
+  padding-right: 195px;
+}
 
 .welcome {
-  margin-top: 800px;
   margin-bottom: 800px;
-  display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 2;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
 }
-.welcome h1 {
+.welcome .profile {
+  display: grid;
+  grid-template-columns: 1;
+}
+.welcome .profile img,
+.welcome .profile svg {
+  grid-area: 1/1;
+  pointer-events: none;
+  user-select: none;
+}
+.welcome .profile img {
+  border-radius: 384.5px;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  translate: 30px 55px;
+}
+.welcome .label {
+  margin-top: 200px;
+}
+.welcome .label h1 {
   color: var(--Accent01);
   font-family: var(--Italiana);
   font-size: 8rem;
@@ -36,7 +62,7 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.welcome p {
+.welcome .label p {
   color: var(--Accent01);
   font-family: var(--Judson);
   font-size: 1.7rem;

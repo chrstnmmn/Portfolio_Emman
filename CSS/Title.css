@@ -17,8 +17,16 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
   background-color: var(--Main);
   margin-inline: 12rem;
+}
+body .title {
+  padding-right: 195px;
 }
 
 .title {
