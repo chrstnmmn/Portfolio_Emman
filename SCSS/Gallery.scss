@@ -1,16 +1,39 @@
 @import "style.scss";
 
-.gallery_title {
-  pointer-events: none;
-  user-select: none;
+.gallery {
+	.gallery_title {
+		pointer-events: none;
+		user-select: none;
 
-	h1 {
-		color: var(--Accent01);
-		text-align: center;
-		font-family: var(--Italiana);
-		font-size: 8rem;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
+		h1 {
+			color: var(--Accent01);
+			text-align: center;
+			font-family: var(--Italiana);
+			font-size: 8rem;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+
+	.gallery_collection {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		.WebDev {
+			.subTitle {
+				h1 {
+					color: var(--Accent01);
+					text-align: end;
+					font-family: var(--Italiana);
+					font-size: 4rem;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+		}
 	}
 }

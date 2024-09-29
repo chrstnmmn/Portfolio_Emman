@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Main: #E9E9E9;
+  --Accent01: #1A1A1A;
+  --Italiana: "Italiana", san-serif;
+  --Judson: "Judson", serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
+  background-color: var(--Main);
+  margin-inline: 12rem;
+}
+body .title,
+body .welcome {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body .title {
+  padding-right: 195px;
+}
+body .welcome {
+  align-self: center;
+}
+
+.Title_section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 20rem;
+}
+.Title_section h1 {
+  color: var(--Accent01);
+  font-family: var(--Italiana);
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Title_section h4 {
+  color: var(--Accent01);
+  font-family: var(--Judson);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -2rem;
+}/*# sourceMappingURL=Title.css.map */

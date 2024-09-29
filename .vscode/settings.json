@@ -1,5 +1,6 @@
 {
   "liveServer.settings.port": 5501,
   "prettier.vueIndentScriptAndStyle": false,
-  "html.format.indentInnerHtml": false
+  "html.format.indentInnerHtml": false,
+  "liveSassCompile.settings.showOutputWindowOn": "Debug"
 }
