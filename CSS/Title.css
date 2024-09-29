@@ -11,7 +11,7 @@
 
 :root {
   --Main: #E9E9E9;
-  --Accent01: #2B2B2B;
+  --Accent01: #1A1A1A;
   --Italiana: "Italiana", san-serif;
   --Judson: "Judson", serif;
 }
@@ -41,7 +41,7 @@ body .welcome {
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-top: 17rem;
+  margin-top: 20rem;
 }
 .title h1 {
   color: var(--Accent01);

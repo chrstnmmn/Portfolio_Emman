@@ -37,46 +37,18 @@ body .welcome {
   align-self: center;
 }
 
-.welcome {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.welcome .profile {
-  display: grid;
-  grid-template-columns: 1;
-}
-.welcome .profile img,
-.welcome .profile svg {
-  grid-area: 1/1;
+.gallery_title {
   pointer-events: none;
   user-select: none;
-  width: 80%;
 }
-.welcome .profile img {
-  border-radius: 384.5px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  translate: 30px 120px;
-}
-.welcome .label {
-  margin-top: 200px;
-}
-.welcome .label h1 {
+.gallery_title h1 {
   color: var(--Accent01);
+  text-align: center;
   font-family: var(--Italiana);
   font-size: 8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.welcome .label p {
-  color: var(--Accent01);
-  font-family: var(--Judson);
-  font-size: 1.7rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 137%; /* 38.36px */
-  width: 789px;
-}
 
-/*# sourceMappingURL=Welcome.css.map */
+/*# sourceMappingURL=Gallery.css.map */
