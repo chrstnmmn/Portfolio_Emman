@@ -10,13 +10,10 @@
 }
 
 :root {
-  --Accent: #f8a685;
-  --Background: #f7e4be;
-  --Primary: #fde6d2;
-  --Secondary: #ffd293;
-  --Text: #342f2f;
-  --Katibe: "Katibeh";
-  --Karma: "Karma";
+  --Main: #E9E9E9;
+  --Accent01: #2B2B2B;
+  --Italiana: "Italiana", san-serif;
+  --Judson: "Judson", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+@import "style.scss";
+
+.welcome {
+  margin-top: 800px;
+  margin-bottom: 800px;
+
+	display: grid;
+	grid-template-columns: 2;
+	grid-template-rows: 2;
+
+	h1 {
+		color: var(--Accent01);
+		font-family: var(--Italiana);
+		font-size: 8rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	p {
+		color: var(--Accent01);
+		font-family: var(--Judson);
+		font-size: 1.7rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 137%; /* 38.36px */
+
+		width: 789px;
+	}
+}

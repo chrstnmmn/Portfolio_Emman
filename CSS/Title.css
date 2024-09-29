@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Main: #E9E9E9;
+  --Accent01: #2B2B2B;
+  --Italiana: "Italiana", san-serif;
+  --Judson: "Judson", serif;
+}
+
+body {
+  background-color: var(--Main);
+  margin-inline: 12rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 17rem;
+}
+.title h1 {
+  color: var(--Accent01);
+  font-family: var(--Italiana);
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title h4 {
+  color: var(--Accent01);
+  font-family: var(--Judson);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -2rem;
+}
+
+/*# sourceMappingURL=Title.css.map */

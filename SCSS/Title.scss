@@ -1,0 +1,27 @@
+@import 'style.scss';
+
+.title {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  margin-top: 17rem;
+	h1 {
+		color: var(--Accent01);
+		font-family: var(--Italiana);
+		font-size: 10rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	h4 {
+		color: var(--Accent01);
+		font-family: var(--Judson);
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+
+    margin-top: -2rem;
+	}
+}

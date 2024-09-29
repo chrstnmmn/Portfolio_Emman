@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Main: #E9E9E9;
+  --Accent01: #2B2B2B;
+  --Italiana: "Italiana", san-serif;
+  --Judson: "Judson", serif;
+}
+
+body {
+  background-color: var(--Main);
+  margin-inline: 12rem;
+}
+
+.welcome {
+  margin-top: 800px;
+  margin-bottom: 800px;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+.welcome h1 {
+  color: var(--Accent01);
+  font-family: var(--Italiana);
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.welcome p {
+  color: var(--Accent01);
+  font-family: var(--Judson);
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137%; /* 38.36px */
+  width: 789px;
+}
+
+/*# sourceMappingURL=Welcome.css.map */
