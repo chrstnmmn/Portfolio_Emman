@@ -12,6 +12,7 @@
 :root {
   --Main: #E9E9E9;
   --Accent01: #1A1A1A;
+  --Accent02: #d9d9d9;
   --Italiana: "Italiana", san-serif;
   --Judson: "Judson", serif;
 }
@@ -40,6 +41,10 @@ body .welcome {
 }
 
 .gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 500vh;
 }
 .gallery .gallery_title {
@@ -62,6 +67,7 @@ body .welcome {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 80px;
 }
 .gallery .gallery_collection .subTitle {
   display: flex;
@@ -78,4 +84,29 @@ body .welcome {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.gallery .gallery_collection .cards_collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.gallery .gallery_collection .cards_collection .cards .outer_shell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  height: 500px;
+  border-radius: 2rem;
+  border: 5px solid var(--Accent01);
+  background: var(--Accent02);
+  box-shadow: 6px 6px 0px 0px var(--Accent01);
+}
+.gallery .gallery_collection .cards_collection .cards .outer_shell .inner_shell {
+  width: 300px;
+  height: 460px;
+  border-radius: 1.4rem;
+  border: 5px solid var(--Accent01);
+  background: url(../imgsrc/Checker.png) lightgray 50%/cover no-repeat;
 }/*# sourceMappingURL=Gallery.css.map */
