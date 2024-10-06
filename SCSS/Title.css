@@ -25,14 +25,14 @@ body {
   background-color: var(--Main);
   margin-inline: 12rem;
 }
-body .title,
+body .Title_section,
 body .welcome {
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-body .title {
+body .Title_section {
   padding-right: 195px;
 }
 body .welcome {
@@ -52,6 +52,7 @@ body .welcome {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 1000px;
 }
 .Title_section h4 {
   color: var(--Accent01);
